@@ -1,0 +1,83 @@
+<html>
+
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift-Jis" />
+<title>水上ビリヤード ～Billiard on the water～</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+
+<br><br>
+
+<div id="wrap">
+ 
+ <div id="header">
+  <font size="6">水上ビリヤード ～Billiard on the water～</font><br><br>
+ </div>
+
+<br><br>
+
+
+<div id="inner">
+<div id="mainWrap">
+<div align="center">
+    <canvas
+    id="bullet"
+    width="180"
+    height="30"
+    style="border:1px solid #000000;"></canvas><br><br>
+  <canvas
+  id="screen"
+  width="400"
+  height="400"
+  style="border:1px solid #000000;"></canvas>
+  <!--
+    <hr>
+    <pre id="debug"></pre>
+    <hr>
+  -->
+  <br>
+  <br>
+  <div align="center">
+    <button id="start" style="width:100px;height:75px" >開始 Start</button>
+    <button id="restart" style="width:100px;height:75px" >再開 Restart</button>
+  </div>
+  <script src="./wavebilliard.js"></script>
+</div><!-- center -->
+
+<br>
+<audio src="./nonbiri.mp3" loop controls></audio>
+<br><br><br><br><br><br>
+―遊び方―<br>
+１：開始ボタンを押してください．<br>
+２：1から9までの数字が書かれたボールが水の上に浮いています．水の上をクリック（タッチ）
+するとそこから波が広がってボールが動きます．ボールを1から9まで順に左上の黒いポケットに
+入れるとゲームクリアになります．ボールを違う順番でポケットに入れるとゲームオーバーになります．<br>
+３：上の青いゲージは弾数（クリックできる回数）を表していて，1回クリックすると弾が一つ減ります．
+弾はボールをポケットに入れると３つ増えます．弾がなくなってもゲームオーバーになります．<br>
+４：BGMを聴きたい方は―遊び方―の上にある再生ボタン（三角形のマーク）を押してください．
+</div><!-- mainWrap -->
+
+<div id="sideWrap">
+    <br><br><br><br>
+<font size="3" color="#696969">
+  <br>
+  
+  <br>
+</font>
+</div><!-- sideWrap -->
+
+<div class="clear"><hr /></div>
+
+</div><!-- inner -->
+</div><!-- wrap -->
+
+<br><br>
+
+<div id="footer">
+
+</div>
+<br><br><br>
+</body>
+</html>
